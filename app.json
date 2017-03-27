@@ -1,0 +1,23 @@
+{
+  "name": "Generic Messaging API",
+  "description": "A Generic Messaging API, intended for Demo Use",
+  "repository": "https://github.com/brbcoding/generic-messaging-demo",
+  "logo": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/nav/salesforce-cloud-logo-sm.png",
+  "env": {
+    "TWILIO_SID": {
+      "description": "Twilio SID",
+      "value": "secret",
+      "required": true
+    },
+    "TWILIO_TOKEN": {
+      "description": "Twilio Token",
+      "value": "secret",
+      "required": true
+    },
+    "TWILIO_PHONE": {
+      "description": "Twilio Phone Number",
+      "value": "secret",
+      "required": true
+    }
+  }
+}
