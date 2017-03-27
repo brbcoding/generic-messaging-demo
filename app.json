@@ -1,7 +1,7 @@
 {
   "name": "Generic Messaging API",
   "description": "A Generic Messaging API, intended for Demo Use",
-  "repository": "https://github.com/brbcoding/generic-messaging-demo",
+  "repository": "https://github.com/salesforce-demos/generic-messaging-demo",
   "logo": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/nav/salesforce-cloud-logo-sm.png",
   "env": {
     "TWILIO_SID": {
@@ -16,7 +16,7 @@
     },
     "TWILIO_NUMBER": {
       "description": "Twilio Phone Number (Including +<CountryCode>)",
-      "value": "+12025172691",
+      "value": "+15555555555",
       "required": true
     }
   }
