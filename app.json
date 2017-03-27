@@ -5,18 +5,18 @@
   "logo": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/nav/salesforce-cloud-logo-sm.png",
   "env": {
     "TWILIO_SID": {
-      "description": "Twilio SID",
-      "value": "secret",
+      "description": "Twilio Account SID (looks like ANo94b172f371579ekb37747fb06098de6)",
+      "value": "Use Your Twilio SID",
       "required": true
     },
     "TWILIO_TOKEN": {
-      "description": "Twilio Token",
-      "value": "secret",
+      "description": "Twilio Token (looks like b50ceboo5372b0ce7372904e232e6152)",
+      "value": "Use Your Twilio Token",
       "required": true
     },
-    "TWILIO_PHONE": {
-      "description": "Twilio Phone Number",
-      "value": "secret",
+    "TWILIO_NUMBER": {
+      "description": "Twilio Phone Number (Including +<CountryCode>)",
+      "value": "+12025172691",
       "required": true
     }
   }
