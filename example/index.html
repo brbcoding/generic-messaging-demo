@@ -1,0 +1,12 @@
+<html>
+  <script>
+  var HOST = location.origin.replace(/^https?/, 'wss')
+  var ws = new WebSocket(HOST);
+  ws.onmessage = function (message) {
+    var data = JSON.parse(message.data)
+    alert(`It works!!! Received ${data.body} from ${data.from}`)
+  }
+  
+  </script>
+  Test your demo setup by sending a text message to your twilio number. If it's working correctly, you will receive a popup with the message body and the sending phone number.
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "generic-agent-messaging",
+  "version": "0.0.1",
+  "description": "Messaging App",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Henshaw",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "twilio": "^2.11.1",
+    "ws": "^2.2.2"
+  }
+}
